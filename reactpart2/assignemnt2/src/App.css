@@ -1,0 +1,39 @@
+:root {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  height: 40vh;
+  flex-direction: column;
+  width: 30vw;
+  border-width: 4px;
+  border-style: solid;
+  border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+}
+
+h1 {
+  color: white;
+  font-size: 12vb;
+}
+
+.display {
+  display: flex;
+  padding: 0px;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  height: 10vh;
+  width: 10vw;
+  outline: none;
+  border-top: 5px;
+  border-left: 5px;
+  border-style: solid;
+  border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+}
